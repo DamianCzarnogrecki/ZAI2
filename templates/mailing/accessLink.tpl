@@ -9,22 +9,22 @@
 	</head>
 	<body>
 		<main id="main">
-		  <div class="modal-dialog" role="document">
+		<div class="modal-dialog" role="document">
 			<div class="modal-content">
-			  <div class="modal-header">
+			<div class="modal-header">
 				<h5 class="modal-title">Dostęp: {$dostep}</h5>
 				<button type="button" class="close" data-dismiss="modal">
-				  <span>&times;</span>
+				<span>&times;</span>
 				</button>
-			  </div>
-			  <div class="modal-body">
+			</div>
+			<div class="modal-body">
 				<span>{$imie}</span>
 				<span>{$nazwisko}</span>
 				<hr>
 				<a href="{$link}">link</a>
-			  </div>
 			</div>
-		  </div>
+			</div>
+		</div>
 		</main>
 	</body>
 </html>
