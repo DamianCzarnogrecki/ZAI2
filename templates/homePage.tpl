@@ -24,6 +24,23 @@
                     </tr>
                 {/foreach}
             </table>
+            
+            <hr>
+            <form method="post" action="../services/csvSaver.php">
+                {include file='fields.tpl'}
+                <button type="submit" class="btn btn-tertiary btn-lg btn-block">Zapisz do pliku CSV</button>
+            </form>
+            <hr>
+            <form method="post" action="../services/jsonSaver.php">
+                {include file='fields.tpl'}
+                <button type="submit" class="btn btn-tertiary btn-lg btn-block">Zapisz do pliku JSON</button>
+            </form>
+            <hr>
+            <form method="post" action="../services/xmlSaver.php">
+                {include file='fields.tpl'}
+                <button type="submit" class="btn btn-tertiary btn-lg btn-block">Zapisz do pliku XML</button>
+            </form>
+
 		</main>
 	</body>
 </html>
