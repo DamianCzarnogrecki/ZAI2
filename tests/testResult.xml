@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="LoginTest" file="C:\xampp\htdocs\App\tests\loginTest.php" tests="1" assertions="3" errors="0" failures="0" skipped="0" time="0.014829">
+    <testcase name="testLogin" file="C:\xampp\htdocs\App\tests\loginTest.php" line="6" class="LoginTest" classname="LoginTest" assertions="3" time="0.014829"/>
+  </testsuite>
+</testsuites>

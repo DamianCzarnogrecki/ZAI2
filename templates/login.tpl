@@ -11,7 +11,7 @@
 		<main id="main">
 			<div class="row d-flex align-items-center justify-content-center h-100">
 				<div class="col-12 col-xl-4 text-center">
-					<form method="post">
+					<form method="post" action="logged.php">
 						<h1 class="fw-bold mb-3">Logowanie</h1>
 						<br>
 						<div class="form-outline form-white mb-4">

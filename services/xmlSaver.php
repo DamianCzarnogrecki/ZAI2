@@ -13,9 +13,9 @@
     foreach ($lekcje as $lekcje)
     {
         $fragmentLekcji = $elementLekcji->addChild('lekcja');
-        foreach ($lekcje as $wartost)
+        foreach ($lekcje as $wartosc)
         {
-            $fragmentLekcji->addChild('lekcja', $wartost);
+            $fragmentLekcji->addChild('lekcja', $wartosc);
         }
     }
 

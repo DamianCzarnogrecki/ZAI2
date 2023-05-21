@@ -25,7 +25,6 @@
 				<p>{$data}</p>
 			  </div>
 			  <div class="modal-footer">
-
 				<button type="button" class="btn btn-primary">Zatwierdź</button>
 			  </div>
 			</div>
